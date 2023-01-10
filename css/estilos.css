@@ -1,5 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
 body {
-  color: deeppink;
-  text-align: center;
+  color: #333;
+  text-align: left;
   font-family: Arial;
+  font-size: 1.6rem;
+}
+
+.container {
+  width: 70%;
+  padding: 2rem;
+  text-align: left;
+  border: 1px solid #ddd;
+  margin: 0 auto;
+}
+
+.post__title {
+  font-size: 20px;
+}
+
+.post__content {
+  padding: 1rem;
 }
